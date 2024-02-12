@@ -30,4 +30,4 @@ While we understand the time-consuming nature of coding tasks, we kindly request
 
 ## Submitting the Test
 
-The easiest way for all involved to review this test is via GitHub. We request that you Fork this project and then perform the "task" on your fork as a public repsoitory. Once completed please submit a link back to us on email. Any notes on your strategy or improvements should be added to the repository in a NOTES.md
+The easiest way for all involved to review this test is via GitHub. We request that you Fork this project and then perform the "task" on your fork as a private repsoitory. Once completed please privide access to your fork to @albanh, @alexbirtwell and @oddvalue. Any notes on your strategy or improvements should be added to the repository in a NOTES.md or replace the content of this readme.
