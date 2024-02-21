@@ -2,7 +2,7 @@
 
 ## Objective
 
-Your task is to refactor the `GetProductsController` without altering its existing functionality, fixing any bugs that you may find. We are looking to see your understanding and use of the Laravel ecosystem as well as as adopting the latest PHP fundamentals and best practices. You are free to use any methodologies or packages as deemed fit for this task. 
+Your task is to refactor the `GetProductsController` without altering its existing functionality, fixing any bugs that you may find. We are looking to see your understanding and use of the Laravel ecosystem as well as adopting the latest PHP fundamentals and best practices. You are free to use any methodologies or packages as deemed fit for this task. 
 
 ## Existing API Route
 
