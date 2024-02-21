@@ -2,7 +2,7 @@
 
 ## Objective
 
-Your task is to refactor the `GetProductsController` without altering its existing functionality fixing any bugs that you may find.
+Your task is to refactor the `GetProductsController` without altering its existing functionality, fixing any bugs that you may find. We are looking to see your understanding and use of the Laravel ecosystem as well as as adopting the latest PHP fundamentals and best practices. You are free to use any methodologies or packages as deemed fit for this task. 
 
 ## Existing API Route
 
@@ -14,11 +14,11 @@ Please create a new API route `/api/products/{section}`, which will return all p
 
 ## Models and Relationships
 
-The models and their relationships have already been established; there's no need for additional configuration in this area.
+The models and their relationships have already been established.
 
 ## Development Environment
 
-You are free to use any methodologies or packages as deemed fit for this task. Set up your dev environment using the setup that you are most comfortable with. The project already includes [Laravel Sail](https://github.com/laravel/sail) for your convenience.
+Set up your dev environment using the setup that you are most comfortable with. The project already includes [Laravel Sail](https://github.com/laravel/sail) for your convenience.
 
 ## Test Data
 
