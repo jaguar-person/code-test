@@ -30,6 +30,6 @@ While we understand the time-consuming nature of coding tasks, we kindly request
 
 ## Submitting the Test
 
-The easiest way for all involved to review this test is via GitHub. We request that you Fork this project and then perform the "task" on your fork as a [b]private repsoitory[/b]. Once completed please privide access to your fork to [@albanh](https://github.com/albanh), [@alexbirtwell](https://github.com/alexbirtwell) and [@oddvalue](https://github.com/oddvalue). This can be done under Settings > Collaborators.
+The easiest way for all involved to review this test is via GitHub. We request that you Fork this project and then perform the "task" on your fork as a **private repsoitory**. Once completed please privide access to your fork to [@albanh](https://github.com/albanh), [@alexbirtwell](https://github.com/alexbirtwell) and [@oddvalue](https://github.com/oddvalue). This can be done under Settings > Collaborators.
 
 Any notes on your strategy or improvements should be added to the repository in a NOTES.md or replace the content of this readme.
