@@ -2,15 +2,23 @@
 
 ## Objective
 
-Your task is to refactor the `GetProductsController` without altering its existing functionality, fixing any bugs that you may find. We are looking to see your understanding and use of the Laravel ecosystem as well as adopting the latest PHP fundamentals and best practices. You are free to use any methodologies or packages as deemed fit for this task. As a point of reference within the task we would like you to adopt the [Spatie Laravel PHP style guide](https://spatie.be/guidelines/laravel-php) which highlights the standard of code we are looking for.
+Your task is to refactor the `GetProductsController` without altering its existing functionality. This controller is used by an API route that provides a list of products to external services. It is vitally important that nothing is changed in the data that it returns. 
 
-## Existing API Route
+The existing route, `/api/products`, returns all products and this functionaly should remain unchanged. 
 
-We have an existing API route, `/api/products`, which returns all products. This functionality should remain unchanged.
+We would like you to add a new route alongside it, `/api/products/{section}`, which will return all products belonging to the specified section.
 
-## New API Route
+## What we're looking for
 
-Please create a new API route `/api/products/{section}`, which will return all products belonging to a specified section.
+We are looking to see your understanding and use of the Laravel ecosystem as well as adopting the latest PHP fundamentals and best practices. We want the code to be clearly readable, maintainable, type safe and flexible to grow with future feature requirements.
+
+Things to bear in mind:
+- The API will be used by external actors for the state of the query parameters cannot be verified.
+- How can we ensure that the functionality has not changed during the refactor?
+- Don't do everything yourself, if there's a feature in Laravel or 3rd party package that can do what you want for you, use it.
+
+## Code Style
+As a point of reference within the task we would like you to adopt the [Spatie Laravel PHP style guide](https://spatie.be/guidelines/laravel-php) which highlights the standard of code we are looking for.
 
 ## Models and Relationships
 
@@ -26,7 +34,7 @@ Test data is provided through seeders. After running the `php artisan migrate --
 
 ## Time Constraint
 
-While we understand the time-consuming nature of coding tasks, we kindly request that you limit yourself to a maximum two hours on this task (not including any setup or style research). Please do not worry if you can't complete the task within the stipulated time. Our primary interest is in assessing your problem-solving approach and your understanding of the Laravel framework and best practices, not necessarily the end product. Any notes about your strategies for tackling this task, or your thoughts on potential improvements to the code, are greatly appreciated.
+While we understand the time-consuming nature of coding tasks, we kindly request that you limit yourself to a maximum of two hours on this task (not including any time required to setup your environment). Please do not worry if you can't complete the task within the stipulated time. Our primary interest is in assessing your problem-solving approach and your understanding of the Laravel framework and best practices, not necessarily the end product. Any notes about your strategies for tackling this task, or your thoughts on potential improvements to the code, are greatly appreciated.
 
 ## Submitting the Test
 
