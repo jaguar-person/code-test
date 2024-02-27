@@ -13,7 +13,7 @@ We would like you to add a new route alongside it, `/api/products/{section}`, wh
 We are looking to see your understanding and use of the Laravel ecosystem as well as adopting the latest PHP fundamentals and best practices. We want the code to be clearly readable, maintainable, type safe and flexible to grow with future feature requirements.
 
 Things to bear in mind:
-- The API will be used by external actors for the state of the query parameters cannot be verified.
+- The API will be used by external actors so the state of the query parameters cannot be verified.
 - How can we ensure that the functionality has not changed during the refactor?
 - Don't do everything yourself, if there's a feature in Laravel or 3rd party package that can do what you want for you, use it.
 
