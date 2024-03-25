@@ -4,13 +4,13 @@
 
 Your task is to refactor the `GetProductsController` without altering its existing functionality. This controller is used by an API route that provides a list of products to external services. It is vitally important that nothing is changed in the data that it returns. 
 
-The existing route, `/api/products`, returns all products and this functionaly should remain unchanged. 
+The existing route, `/api/products`, returns all products and this functionally should remain unchanged. 
 
 We would like you to add a new route alongside it, `/api/products/{section}`, which will return all products belonging to the specified section.
 
 ## What we're looking for
 
-We are looking to see your understanding and use of the Laravel ecosystem as well as adopting the latest PHP fundamentals and best practices. We want the code to be clearly readable, maintainable, type safe and flexible to grow with future feature requirements.
+We are looking to see your understanding and use of the Laravel ecosystem as well as adopting the latest PHP fundamentals and best practices. We want the code to be clearly readable, maintainable, type-safe and flexible to grow with future feature requirements.
 
 Things to bear in mind:
 - The API will be used by external actors so the state of the query parameters cannot be verified.
@@ -38,6 +38,17 @@ While we understand the time-consuming nature of coding tasks, we kindly request
 
 ## Submitting the Test
 
-The easiest way for all involved to review this test is via GitHub. We request that you clone the project or copy to the code to your own **private repository**. Once completed please provide access to [@albanh](https://github.com/albanh), [@alexbirtwell](https://github.com/alexbirtwell) and [@oddvalue](https://github.com/oddvalue). This can be done under Settings > Collaborators.
+The easiest way for all involved to review this test is via GitHub. We request that you clone the project and copy the code to your own **private repository**. 
+
+```sh
+git clone --depth 1 git@github.com:townsendmusic/code-test.git tm-code-test
+cd tm-code-test
+rm -rf .git
+git init
+git add .
+git commit -m 'The test'
+```
+
+Once completed please provide access to [@albanh](https://github.com/albanh), [@alexbirtwell](https://github.com/alexbirtwell) and [@oddvalue](https://github.com/oddvalue). This can be done under Settings > Collaborators.
 
 Any notes on your strategy or improvements should be added to the repository in a NOTES.md or replace the content of this readme.
