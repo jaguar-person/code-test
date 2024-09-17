@@ -19,3 +19,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/products', \App\Http\Controllers\GetProductsController::class);
+Route::get('/products/{section}', [\App\Http\Controllers\GetProductsController::class, 'getProductsBySection']);
+
+Route::post('/login', 'AuthController@login');
+Route::post('/register', 'AuthController@register');
+
